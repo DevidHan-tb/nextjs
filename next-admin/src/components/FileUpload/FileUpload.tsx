@@ -198,7 +198,7 @@ export default function FileUploader() {
   }
   return (
     <div>
-      <input type="file" multiple onChange={(e)=>{handleFileChange(e)}} />
+      <input type="file" multiple onChange={(e)=>{handleFileChange}} />
       {
         file && (
           <div>
