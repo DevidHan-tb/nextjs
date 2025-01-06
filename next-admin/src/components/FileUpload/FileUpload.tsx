@@ -224,7 +224,7 @@ export default function FileUploader() {
         status === 'success' && (
           <>
             <p>上传成功！</p>
-            <p>ok！</p>
+            <p>ok！!</p>
           </>
         )
       }
